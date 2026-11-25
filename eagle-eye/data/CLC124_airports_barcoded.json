@@ -1,0 +1,42 @@
+{
+  "dataset": "Corine Land Cover (CLC) 2018",
+  "barcoding_created_by": "Renner Thomas",
+  "EAGLE_matrix_version": "3.2",
+  "barcoding_source": "CLCplus Core",
+  "resolution": "100 m",
+  "label": "1.2.4 Airports",
+  "description_source": "https://land.copernicus.eu/content/corine-land-cover-nomenclature-guidelines/html/index-clc-124.html",
+  "description": "Airports installations: runways, buildings and associated land. This class is assigned for any kind of ground facilities that serve airborne transportation.\nThis class is applicable for:\n- civil and military airports with sealed runway;\n- sport airports with concrete or asphalt runways;\n- flying schools used for pilot’s training programme of civil aviation;\n- abandoned airports where artificial structures are still present and no evidence of other use is recognizable.\nThis class includes:\n- take-off and landing runways (concrete, asphalt)\n- terminals, hangars, service and storing buildings and in-door spaces;\n- technical installations (radars, antennas, towers);\n- parking lots and lay-by areas;\n- adjacent grass areas, or dispersed trees and shrubs within fenced buffer zone of airport.\nThis class is not applicable for:\n- airports with non-sealed (usually grass-covered) runways used for sports, agriculture and forestry (e.g. spreading of fertilizers and chemical materials) (class 142).\n- military airfields without sealed runway as part of military infrastructure (class 121);\n- abandoned airports where artificial structures are no longer visible and evidence of other use is recognizable (class according to actual cover/use).\nThis class excludes:...",
+  "barcoding_output": [
+    {
+      "code": "LCC-1_1_1_1",
+      "name": "Buildings",
+      "bcv": 1,
+      "excluded": false
+    },
+    {
+      "code": "LCC-1_1_1_2",
+      "name": "Specific Structures and Facilities",
+      "bcv": 1,
+      "excluded": false
+    },
+	{
+      "code": "LCC-1_1_1_3",
+      "name": "Open Sealed Surfaces",
+      "bcv": 3,
+      "excluded": false
+    },
+	{
+      "code": "LCC-2",
+      "name": "Biotic, Vegetation",
+      "bcv": 1,
+      "excluded": false
+    },
+	{
+      "code": "LUA-4_1_3",
+      "name": "Air Transport",
+      "bcv": 3,
+      "excluded": false
+    }
+  ]
+}
